@@ -55,6 +55,11 @@ var cards = (function() {
         end = start + 5;
         opt.loop = 2;
         break;
+      case NUMONLY:
+        opt.acesHigh = false;
+        start = 1;
+        end = 10;
+        break;
     }
 
     opt.table = $(opt.table)[0];
