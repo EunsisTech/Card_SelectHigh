@@ -131,6 +131,16 @@ var cards = (function() {
       $(this.el).animate(props, speed || opt.animationSpeed, callback);
     },
 
+    moveBy: function(x, y, speed, callback) {
+      this.targetTop+=y;
+      this.targetLeft+=x;
+      var props = {
+        top: this.targetTop,
+        left: this.targetLeft
+      };
+      $(this.el).animate(props, speed || opt.animationSpeed, callback);
+    },
+
     rotate: function(angle) {
       $(this.el)
         .css('-webkit-transform', 'rotate(' + angle + 'deg)')
