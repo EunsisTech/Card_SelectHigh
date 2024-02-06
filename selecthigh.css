@@ -50,12 +50,40 @@ h1 {
 	-o-border-radius:8px;
 	box-shadow:#111 1px 1px 2px;
 }
+
 a:visited {color:blue;}
 
-#deal {
+#btnDeal {
 	position: absolute;
 	left:310px;
 	top:170px;
+}
+
+#btnCheck {
+	position: absolute;
+	left:430px;
+	top:170px;
+}
+
+#btnNewGame {
+	position: absolute;
+	left:430px;
+	top:210px;
+}
+
+#lblWinOrLose {
+	font-size:20px;	
+	position: absolute;
+	left:430px;
+	top:130px;
+}
+
+#lblSelectOne {
+	font-size:20px;	
+	position: absolute;
+	left:410px;
+	top:130px;
+	text-align:center;
 }
 
 footer {
