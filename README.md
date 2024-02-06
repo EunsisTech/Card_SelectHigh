@@ -1,3 +1,10 @@
+Select High
+=========
+
+Select High card to increase chances of winning
+
+----------
+
 cards.js
 ========
 
